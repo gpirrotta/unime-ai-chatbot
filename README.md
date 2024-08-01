@@ -3,13 +3,20 @@
 
 ### Installazione
 
-Installare le librerie con il comando: 
-`pip install -r requirements.txt`
+**Installare** le librerie con il comando: 
 
-Rinominare il file `.env.sample` in `.env` e inserire la **OPENAI_API_KEY**
+```
+pip install -r requirements.txt
+```
 
-Eseguire l'applicazione
-`streamlit run start.py`
+**Rinominare** il file `.env.sample` in `.env` e inserire la **OPENAI_API_KEY**
 
-Aprire il browser all'URL 
-`http://localhost:8501/`
+**Avviare** l'applicazione con il comando
+```
+streamlit run start.py
+```
+
+**Aprire** il browser all'URL 
+```
+http://localhost:8501/
+```
