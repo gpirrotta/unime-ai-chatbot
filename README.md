@@ -13,9 +13,11 @@ pip install -r requirements.txt
 
 **Rinominare** il file `.env.sample` in `.env` e inserire la **OPENAI_API_KEY**
 
-**Avviare** l'applicazione con il comando
+
+**Effetuare** lo scraping (solo la prima volta)
+
 ```
-streamlit run start.py
+python scraper.py
 ```
 
 **Aprire** il browser all'URL 
