@@ -1,4 +1,4 @@
-# UNIME-CHATBOT
+# UNIME-AI-CHATBOT
 
 Quando l'AI entra in Ateneo
 
