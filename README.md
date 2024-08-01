@@ -15,9 +15,13 @@ pip install -r requirements.txt
 
 
 **Effetuare** lo scraping (solo la prima volta)
-
 ```
 python scraper.py
+```
+
+**Avviare** l'applicazione con il comando
+```
+streamlit run start.py
 ```
 
 **Aprire** il browser all'URL 
