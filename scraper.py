@@ -77,7 +77,7 @@ df.to_csv('./data/dataset.csv', index=False)
 
 
 chunks = DataFrameLoader(
-        dataset, page_content_column="body"
+        df, page_content_column="body"
     ).load_and_split(
         text_splitter=RecursiveCharacterTextSplitter(
             chunk_size=1000, chunk_overlap=0, length_function=len
