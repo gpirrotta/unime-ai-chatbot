@@ -10,7 +10,6 @@ from langchain.prompts import (
     HumanMessagePromptTemplate,
     SystemMessagePromptTemplate,
     PromptTemplate,
-    MessagesPlaceholder
 )
 import streamlit as st
 
@@ -29,14 +28,13 @@ def get_conversation_chain(vector_store:FAISS, system_message:str, human_message
         verbose=True,
         memory=st.session_state.memory,
         get_chat_history=lambda h : h,
-        #condense_question_prompt=PromptTemplate.from_template(
-        #    ('Questa è la precedente domanda {question}), questa è la precedente risposta ({chat_history}).')
-        #),
+        condense_question_prompt=PromptTemplate.from_template(
+            ('Questa è la precedente domanda {question}), questa è la precedente risposta ({chat_history}).')
+        ),
         combine_docs_chain_kwargs={ # qui viene specificato il prompt come unione di più parti tenute insieme tramite un template
             "prompt": ChatPromptTemplate.from_messages(
                 [
                     system_message,
-                    MessagesPlaceholder(variable_name="chat_history"),
                     human_message,
                 ]
                 ),
