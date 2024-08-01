@@ -1,9 +1,15 @@
-## UNIME-CHATBOT
+# UNIME-CHATBOT
 
-#### Installazione
-* Installare le librerie 
+
+### Installazione
+
+Installare le librerie con il comando: 
 `pip install -r requirements.txt`
-* rinominare il file `.env.sample` in `.env` inserire la **OPENAI_API_KEY**
-* ed eseguire il seguente comando
+
+Rinominare il file `.env.sample` in `.env` e inserire la **OPENAI_API_KEY**
+
+Eseguire l'applicazione
 `streamlit run start.py`
-* aprire il browser all'URL `http://localhost:8501/`
+
+Aprire il browser all'URL 
+`http://localhost:8501/`
