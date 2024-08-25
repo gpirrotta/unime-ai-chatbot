@@ -1,7 +1,6 @@
 # UNIME-AI-CHATBOT
 
-Quando l'AI entra in Ateneo
-
+Quando l'AI entra in Ateneo, maggiori informazioni [qui](https://medium.com/@gpirrotta/di-intelligenze-artificiali-atenei-e-servizi-digitali-0e9b679dc65a)
 
 ### Installazione
 
